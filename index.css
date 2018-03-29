@@ -1,0 +1,81 @@
+html{
+  background-color: #abc7e8;
+}
+body{
+  display:block;
+  text-align: center;
+}
+.Menu{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow:hidden;
+
+  background-color: #333;
+}
+.Menu li{
+  float:left;
+  border-right:1px solid #bbb;
+}
+.Menu li:last-child{
+  border-right:none;
+  float:right;
+}
+.Menu li a{
+  display: block;
+  color: white;
+  padding: 14px 16px;
+}
+.Menu li a:hover{
+  background-color: red;
+}
+.divider{
+  text-align: center;
+  color: blue;
+}
+.Span{
+  color:red;
+}
+.Para{
+  color: magenta;
+
+}
+#temp{
+  color:grey;
+}
+.Block li {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+.Float{
+  border: 3px solid black;
+    margin: 25px 3% 10px;
+}
+.Float ul{
+  padding:30px;
+}
+.Float li{
+  list-style-type: none;
+  float: left;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+  border-radius: 15px;
+
+}
+.Blur{
+  float:right;
+  width: 300px;
+height: 100px;
+padding: 15px;
+background-color: #7a9bc1;
+box-shadow: 10px 10px 5px #dbddd3;
+}
+#Clear{
+  float:clear;
+  border-radius:15px 0px 15px 15px;
+}
